@@ -1,0 +1,6 @@
+{
+  "name": "Disable Workspace Switch Animation for Gnome 40 and above",
+  "description": "Disables the workspace switch animation while preserving all other animations. Instantly switch between workspaces like in a Window Manager.",
+  "uuid": "instantworkspaceswitcher@amalantony.net",
+  "shell-version": ["40"]
+}
