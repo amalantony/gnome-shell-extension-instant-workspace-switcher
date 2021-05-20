@@ -6,7 +6,7 @@ Switching workspaces with keyboard shortcuts happen instantly, akin to a window 
 
 ## Manual Installation
 
-1. Clone the repo & copy the folder instantworkspaceswitcher@amalantony.net to \$HOME/.local/share/gnome-shell/extensions.
+1. Clone the repo & copy the folder instantworkspaceswitcher@amalantony.net to \$HOME/.local/share/gnome-shell/extensions:
 
    ```
    git clone https://github.com/amalantony/gnome-shell-extension-instant-workspace-switcher.git
