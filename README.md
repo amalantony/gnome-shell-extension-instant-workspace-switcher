@@ -4,7 +4,13 @@ This GNOME shell extension disables the workspace switching animation. All other
 
 Switching workspaces with keyboard shortcuts happen instantly, akin to a window manager like i3.
 
-## Manual Installation
+## Installation
+
+### Via the GNOME extensions website:
+
+https://extensions.gnome.org/extension/4290/disable-workspace-switch-animation-for-gnome-40/
+
+### Via the command line:
 
 1. Clone the repo & copy the folder instantworkspaceswitcher@amalantony.net to \$HOME/.local/share/gnome-shell/extensions:
 
