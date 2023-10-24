@@ -1,5 +1,5 @@
 {
-  "name": "Disable Workspace Switch Animation for GNOME 45+",
+  "name": "Disable Workspace Switch Animation for GNOME 40+",
   "description": "Disables the workspace switch animation while preserving all other animations - instantly switch between workspaces with keyboard shortcuts.",
   "uuid": "instantworkspaceswitcher@amalantony.net",
   "shell-version": ["45"],
