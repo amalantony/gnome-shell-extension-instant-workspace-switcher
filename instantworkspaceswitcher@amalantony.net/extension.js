@@ -18,13 +18,15 @@
 
 /* exported init */
 
-import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
-import * as WorkspaceAnimation from 'resource:///org/gnome/shell/ui/workspaceAnimation.js';
+const WorkspaceAnimation = imports.ui.workspaceAnimation;
 
-export default class DisableAnimation extends Extension {
-  enable() {
-    this._oldAnimateSwitch =
+class Extension {
+  constructor() {
+    this.oldAnimateSwitch =
       WorkspaceAnimation.WorkspaceAnimationController.prototype.animateSwitch;
+  }
+
+  enable() {
     WorkspaceAnimation.WorkspaceAnimationController.prototype.animateSwitch = function (
       _from,
       _to,
@@ -36,6 +38,10 @@ export default class DisableAnimation extends Extension {
   }
 
   disable() {
-    WorkspaceAnimation.WorkspaceAnimationController.prototype.animateSwitch = this._oldAnimateSwitch;
+    WorkspaceAnimation.WorkspaceAnimationController.prototype.animateSwitch = this.oldAnimateSwitch;
   }
+}
+
+function init() {
+  return new Extension();
 }
