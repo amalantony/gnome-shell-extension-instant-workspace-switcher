@@ -1,4 +1,4 @@
-# Instant Workspace Switcher for GNOME 40+
+# Instant Workspace Switcher for GNOME
 
 This GNOME shell extension disables the workspace switching animation. All other animations, including the trackpad swipe to change workspace are preserved.
 
